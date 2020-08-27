@@ -41,7 +41,7 @@ describe Cat do
   describe "Class methods" do
     it "knows all the cats" do
       expect(Cat.all).to include(@cat)
-      expect(Cat.all.count).to eq(6)
+      expect(Cat.all.count).to eq(1)
     end
   end
 end
